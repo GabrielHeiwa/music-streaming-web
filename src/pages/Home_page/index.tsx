@@ -4,10 +4,8 @@ import {
     HomeContainer
 } from "./style";
 
-const Home: React.FC = () => {
+export default function Home() {
     return <HomeContainer>
-        Hello worlld
+        <div>Hello world</div>
     </HomeContainer>
 }
-
-export default Home;
