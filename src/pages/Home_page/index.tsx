@@ -1,11 +1,17 @@
 import React from "react";
 
 import {
-    HomeContainer
+    HomeContainer,
+    BodyContainer,
+    HeaderContainer
 } from "./style";
 
 export default function Home() {
     return <HomeContainer>
-        <div>Hello world</div>
+        <HeaderContainer></HeaderContainer>
+        <BodyContainer>
+
+            
+        </BodyContainer>
     </HomeContainer>
 }

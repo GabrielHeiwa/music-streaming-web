@@ -8,9 +8,8 @@ import {
 function App() {
   return (
     <>
-      <GlobalStyle>
-        <Routes />
-      </GlobalStyle>
+      <GlobalStyle />
+      <Routes />
     </>
   );
 }
